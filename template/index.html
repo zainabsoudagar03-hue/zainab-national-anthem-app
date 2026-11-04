@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthem Workshop - Zainab</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fff4e6, #ffffff, #e5ffe9);
+            color: #222;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(
+                to right,
+                #ff9933 33.3%,
+                white 33.3% 66.6%,
+                #138808 66.6%
+            );
+            padding: 8px;
+            text-align: center;
+        }
+
+        nav {
+            background: #152c50;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        nav h2 {
+            font-size: 25px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 35px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 5px 20px #0002;
+            text-align: center;
+        }
+
+        .chakra {
+            font-size: 65px;
+            color: #000080;
+            margin: 15px;
+        }
+
+        h1 {
+            color: #e87916;
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .lyrics {
+            background: #fff8ed;
+            padding: 25px;
+            border-left: 5px solid #138808;
+            border-radius: 10px;
+            line-height: 2;
+            font-size: 17px;
+        }
+
+        button {
+            background: #152c50;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            margin-top: 22px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #e87916;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header></header>
+
+    <nav>
+        <h2>🇮🇳 National Anthem of India 🇮🇳</h2>
+    </nav>
+
+    <main class="container">
+
+        <div class="chakra">☸</div>
+
+        <h1>Jana Gana Mana</h1>
+
+        <p class="subtitle">
+            Respecting the Pride and Unity of India
+        </p>
+
+        <section class="lyrics">
+            <h2>National Anthem</h2>
+
+            <p>
+                Jana-gana-mana-adhinayaka jaya he<br>
+                Bharata-bhagya-vidhata.<br>
+                Punjab-Sindh-Gujarat-Maratha<br>
+                Dravida-Utkala-Banga.<br>
+                Vindhya-Himachala-Yamuna-Ganga<br>
+                Uchchala-Jaladhi-taranga.<br>
+                Tava shubha name jage,<br>
+                Tava shubha ashisha mage,<br>
+                Gahe tava jaya gatha.<br>
+                Jana-gana-mangala-dayaka jaya he<br>
+                Bharata-bhagya-vidhata.<br>
+                Jaya he, jaya he, jaya he,<br>
+                Jaya jaya jaya jaya he.
+            </p>
+        </section>
+
+        <button onclick="showMessage()">
+            Celebrate India
+        </button>
+
+        <p id="message"></p>
+
+    </main>
+
+    <footer>
+        <p>Developed by Zainab</p>
+        <p>Unity in Diversity | Proud to be Indian 🇮🇳</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "🇮🇳 Proud to be an Indian! Jai Hind!";
+        }
+    </script>
+
+</body>
+</html>
